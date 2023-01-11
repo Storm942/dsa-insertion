@@ -14,7 +14,7 @@ int insert(int arr[],capacity,int index,int size,int element){
     for(int i=size-1;i>=index;i--){
         arr[i+1]=arr[i];
     }
-    index=element;
+    arr[index]=element;
     return 1;
 
 }
